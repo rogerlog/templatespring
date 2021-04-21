@@ -2,7 +2,18 @@
 
 
 
-Deploy do backend
+## Deploy do backend
+
+
+
+
+
+
+
+Links
+
+- https://devcenter.heroku.com/articles/deploying-java
+- https://devcenter.heroku.com/articles/deploying-java-applications-with-the-heroku-maven-plugin
 
 
 

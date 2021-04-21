@@ -13,6 +13,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>templateSpring</name>
 	<description>Demo project for Template Spring Boot</description>
+
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -48,6 +49,18 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+
+			<plugin>
+				<groupId>com.heroku.sdk</groupId>
+				<artifactId>heroku-maven-plugin</artifactId>
+				<version>3.0.3</version>
+				<configuration>
+					<appName>aqueous-fjord-05268</appName>
+
+				</configuration>
+			</plugin>
+
+
 		</plugins>
 	</build>
 
